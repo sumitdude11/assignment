@@ -1,7 +1,7 @@
 #include<stdio.h> 
 #include<stdlib.h> 
 #include<sys/wait.h> //for waitpid
-#include<unistd.h>//provide access to posix os api
+#include<unistd.h>//provide access to posix os api  fullform unix standard
 
 int partition(int a[], int p ,int r)
 {
