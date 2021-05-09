@@ -1,6 +1,6 @@
 #include<stdio.h> 
 #include<stdlib.h> 
-#include<sys/wait.h> 
+#include<sys/wait.h> //for waitpid
 #include<unistd.h>
 
 int partition(int a[], int p ,int r)
